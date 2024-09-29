@@ -1,6 +1,9 @@
 # `clarity.nvim`
 
 Integrate [Clarity smart contract language](https://clarity-lang.org) in Neovim.
+
+<img width="971" alt="An nvim window editing clarity code highlighted through the clarity.nvim plugin" src="https://github.com/user-attachments/assets/f7a0b046-85cb-485d-9afe-b29f6157b3c9">
+
 This plugin adds:
 
 - `.clar` filetype definition.
