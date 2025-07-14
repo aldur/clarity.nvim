@@ -6,10 +6,12 @@
  (int_lit)
  (uint_lit)
  (buffer_lit)
+] @number
+[
+ (bool_lit)
  (standard_principal_lit)
  (contract_principal_lit)
-] @number
-(bool_lit) @constant.builtin
+] @constant.builtin
 
 ; Type
 [
@@ -55,9 +57,12 @@
  "define-map"
  "block-height"
  "burn-block-height"
+ "chain-id"
  "contract-caller"
  "is-in-regtest"
+ "stacks-block-height"
  "stx-liquid-supply"
+ "tenure-height"
  "tx-sender"
  (none_lit)
  "some"
@@ -79,6 +84,3 @@
 [
   ","
 ] @punctuation.delimiter
-
-
-(identifier) @variable
