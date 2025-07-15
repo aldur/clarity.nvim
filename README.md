@@ -10,7 +10,8 @@ This plugin adds:
 - The [Clarity Tree-sitter grammar][1].
   - Context queries for [`romgrk/nvim-treesitter-context`][2], if installed.
 
-[`nvim-lspconfig`][4] includes support for the [`clarinet` LSP][3].
+[`nvim-lspconfig`][4] includes support for the [`clarinet` LSP][3]. Add
+`vim.lsp.enable('clarinet')` to your configuration to enable it.
 
 ## Requirements
 
@@ -37,7 +38,7 @@ Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate'}
 Plug 'aldur/clarity.nvim', { 'do': ':TSInstall clarity'}
 
 " Optional dependencies
-Plug 'neovim/nvim-lspconfig'  " `brew install clarinet`
+Plug 'neovim/nvim-lspconfig'  " `brew install clarinet`, then `vim.lsp.enable('clarinet')`
 Plug 'romgrk/nvim-treesitter-context'  " context support
 ```
 
