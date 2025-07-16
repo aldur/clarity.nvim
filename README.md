@@ -42,16 +42,15 @@ Plug 'neovim/nvim-lspconfig'  " `brew install clarinet`, then `vim.lsp.enable('c
 Plug 'romgrk/nvim-treesitter-context'  " context support
 ```
 
-## Additional goodies
-
-[Here][5] you can find the `clarity` language specification for
-[`universal-ctags`][6].
-
 ## Related projects
 
 [`vim-clarity`][vim-clarity] provides syntax highlighting, linting, and deploy
 capabilities. It relies on `vim` syntax highlights and a custom CLI tool for
 linting.
+
+The `clarity` language specification for [`universal-ctags`][6] is [here][5]. 
+It was developed before the LSP supported "go-to-reference". 
+There should be no need for it now.
 
 [vim-clarity]: https://github.com/alexkeating/vim-clarity
 
