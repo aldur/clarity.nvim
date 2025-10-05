@@ -17,8 +17,11 @@ This plugin adds:
 
 This plugin requires:
 
-- `nvim` (>= 0.9.2, see `nvim-treesitter`)
-- `nvim-treesitter/nvim-treesitter`
+- `nvim` (>= 0.11.0)
+- `nvim-treesitter/nvim-treesitter` on its [`main` branch][7] and all its
+  dependencies
+  - The `0.2.0` tag of this plugin is the last one to support older
+    `nvim-treesitter` releases.
 
 To get LSP support, you'll also need `neovim/nvim-lspconfig` installed and
 `clarinet` available on `PATH` (available through your OS package manager).
@@ -48,9 +51,9 @@ Plug 'romgrk/nvim-treesitter-context'  " context support
 capabilities. It relies on `vim` syntax highlights and a custom CLI tool for
 linting.
 
-The `clarity` language specification for [`universal-ctags`][6] is [here][5]. 
-It was developed before the LSP supported "go-to-reference". 
-There should be no need for it now.
+The `clarity` language specification for [`universal-ctags`][6] is
+[here][5]. It was developed before the LSP supported "go-to-reference". There
+should be no need for it now.
 
 [vim-clarity]: https://github.com/alexkeating/vim-clarity
 
@@ -61,3 +64,4 @@ There should be no need for it now.
 [4]: https://github.com/neovim/nvim-lspconfig
 [5]: https://github.com/aldur/dotfiles/blob/master/various/ctags/clarity.ctags
 [6]: https://github.com/universal-ctags/ctags
+[7]: https://github.com/nvim-treesitter/nvim-treesitter/tree/main?tab=readme-ov-file
