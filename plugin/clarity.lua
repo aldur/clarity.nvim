@@ -4,7 +4,7 @@ vim.filetype.add({ extension = { clar = "clarity" } })
 require("nvim-treesitter.parsers").clarity = {
 	install_info = {
 		url = "https://github.com/xlittlerag/tree-sitter-clarity",
-		revision = "ef0552d593a64d6d2936090a44f0ad9f5d54a37f",
+		revision = "cbb3ffe8688aca558286fd45ed46857a1f3207bb",
 		branch = "main",
 	},
 	maintainers = { "aldur" },
